@@ -34,7 +34,10 @@ pipeline
         }
           stage("stage5")
         {
-           echo "This is sateg5"
+            steps
+            {
+            echo "This is sateg5"
+            }
         }
     }
 }
